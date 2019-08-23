@@ -2,8 +2,6 @@ const users = []
 
 const addUser = ({ id, username, room }) => {
     // Clean the data
-    console.log(username)
-    console.log(id)
     username = username.trim().toLowerCase()
     room = room.trim().toLowerCase()
 
